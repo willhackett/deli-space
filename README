@@ -1,0 +1,19 @@
+#deli-space
+
+### Use:
+
+Syntax is simple: `ds(padding, delimiter, group, group, group, ...groups)`
+
+```javascript:
+// es6 import
+import ds from 'deli-space'
+// commonjs require
+const ds = require('deli-space')
+
+ds('*', '-', 4, 5, 6)
+// Outputs: "****-*****-******"
+
+ds('•', ' ', 4, 4, 4, 4)
+// Outputs: '•••• •••• •••• ••••')
+
+```

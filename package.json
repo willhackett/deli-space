@@ -1,0 +1,19 @@
+{
+  "name": "deli-space",
+  "version": "1.0.0",
+  "description": "Produces a string with groups of a custom padding value with a custom delimiter. Useful for generating credit card strings or blank strings with the correct length.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "credit",
+    "card",
+    "format",
+    "space",
+    "format",
+    "deliminator"
+  ],
+  "author": "Will Hackett <will@willhackett.com>",
+  "license": "MIT"
+}
